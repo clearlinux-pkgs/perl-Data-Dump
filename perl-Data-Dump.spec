@@ -4,10 +4,10 @@
 #
 Name     : perl-Data-Dump
 Version  : 1.23
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz
-Summary  : 'Pretty printing of data structures'
+Summary  : Pretty printing of data structures
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -22,6 +22,7 @@ use Data::Dump qw(dump ddx);
 Summary: dev components for the perl-Data-Dump package.
 Group: Development
 Provides: perl-Data-Dump-devel = %{version}-%{release}
+Requires: perl-Data-Dump = %{version}-%{release}
 
 %description dev
 dev components for the perl-Data-Dump package.
