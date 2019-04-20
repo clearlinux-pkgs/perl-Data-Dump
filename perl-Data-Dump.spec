@@ -64,10 +64,10 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/Data/Dump.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Data/Dump/FilterContext.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Data/Dump/Filtered.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Data/Dump/Trace.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Data/Dump.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Data/Dump/FilterContext.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Data/Dump/Filtered.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Data/Dump/Trace.pm
 
 %files dev
 %defattr(-,root,root,-)
