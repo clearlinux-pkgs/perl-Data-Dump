@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Dump
 Version  : 1.23
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz
 Summary  : 'Pretty printing of data structures'
@@ -85,7 +85,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Data/Dump.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Data/Dump/FilterContext.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Data/Dump/Filtered.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Data/Dump/Trace.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Data/Dump.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Data/Dump/FilterContext.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Data/Dump/Filtered.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Data/Dump/Trace.pm
