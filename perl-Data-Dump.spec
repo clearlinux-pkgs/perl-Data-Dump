@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Dump
 Version  : 1.23
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz
 Summary  : 'Pretty printing of data structures'
