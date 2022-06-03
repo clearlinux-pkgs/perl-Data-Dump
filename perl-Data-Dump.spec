@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Dump
 Version  : 1.25
-Release  : 24
+Release  : 25
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz
 Summary  : 'Pretty printing of data structures'
@@ -86,7 +86,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Data/Dump.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Data/Dump/FilterContext.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Data/Dump/Filtered.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Data/Dump/Trace.pm
+/usr/lib/perl5/*
