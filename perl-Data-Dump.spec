@@ -7,7 +7,7 @@
 #
 Name     : perl-Data-Dump
 Version  : 1.25
-Release  : 33
+Release  : 34
 URL      : https://cpan.metacpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz
 Summary  : 'Pretty printing of data structures'
